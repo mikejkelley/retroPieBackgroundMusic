@@ -43,6 +43,7 @@ sudo systemctl enable play_music.service
 sudo systemctl start play_music.service
 ```
 
+# Starting and Stopping<br>
 That's good but now we have to create runcommand-onstart and runcommand-onend hooks. When you fire up a game, emustation stops and runcommand takes over. When runcommand starts, we want the music to stop.
 
 `sudo nano /opt/retropie/configs/all/runcommand-onstart.sh`
