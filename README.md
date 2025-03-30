@@ -34,7 +34,7 @@ Copy and paste the contents of rc.local. Save and exit.
 
 Copy and paste the contents of the associated file. Save and exit.
 
-#Start The Script On Boot
+# Start The Script On Boot
 
 `sudo nano /etc/systemd/system/play_music.service`
 
