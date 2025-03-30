@@ -21,12 +21,14 @@ Now we have to create a music folder.
 Putting it in the roms folder should take care of permission issues.
 Now in Windows explorer, type in \\RETROPIE and navigate to \roms\music and copy your music into the folder.
 
-Set Volume System Wide<br>
+# Set Volume System Wide<br>
 That's great for the music, but what about the games? We want to set game sounds volume to 67% too. Here's how:
 
 `sudo nano /etc/rc.local`
 
 Copy and paste the contents of rc.local. Save and exit.
+
+# Prevent Conflicts
 
 `sudo nano /etc/asound.conf`
 
