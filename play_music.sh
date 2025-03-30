@@ -26,4 +26,6 @@ echo "Starting music playback..."
 $MPG123_CMD 
 echo "Music playback stopped."
 
+#This script assumes your amp hat is device 2,0. To make sure, run the following command:
+#aplay -l
 
