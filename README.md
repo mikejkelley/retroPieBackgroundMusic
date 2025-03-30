@@ -7,4 +7,6 @@ Why not make your countercade double as a jukebox that plays awesome 80's new wa
 sudo apt-get install mpg123
 sudo mkdir scripts
 cd scripts
-sudo nano play_music.sh``
+sudo nano play_music.sh
+
+
