@@ -1,0 +1,16 @@
+[Unit]
+Description=RetroPie Background Music
+After=emulationstation.service
+Requires=emulationstation.service
+
+[Service]
+ExecStart=/home/pi/scripts/play_music.sh
+WorkingDirectory=/home/pi/scripts
+StandardOutput=journal
+StandardError=journal
+Restart=always
+User=pi
+Group=pi
+
+[Install]
+WantedBy=default.target
